@@ -400,7 +400,7 @@ header .navbar .navbar-nav {
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
-.price-section .m-p-c-banner .m-p-c-banner h2 span {
+.price-section .m-p-c-inner .m-p-c-banner h2 span {
   font-size: 35px;
 }
 .price-section .m-p-c-inner .m-p-c-banner p {

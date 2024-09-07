@@ -90,6 +90,9 @@ header .navbar .navbar-nav {
   border: 2px solid #ff8b38;
   transition: 0.5s;
 }
+.banner-section .banner-right {
+  justify-content: flex-end;
+}
 .banner-section .banner-right .card {
   width: 68%;
   text-align: center;
@@ -128,9 +131,7 @@ header .navbar .navbar-nav {
 
 /* Social Section Code Start */
 .social-section {
-  width: 100%;
-  padding: 20px 0px 10px;
-  border-bottom: 1px solid #b7b7b7;
+  padding: 50px 15px;
 }
 
 .social-section .social-right p {
@@ -331,93 +332,66 @@ header .navbar .navbar-nav {
 .price-section .p-top p {
   font-size: 14px;
   color: #86878b;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   margin: 0;
 }
-.price-section .p-c-inner .p-c-header {
+.price-section .card {
+  width: 90%;
+}
+.price-section .card .card-header {
   background: #333333;
   border-bottom: 1px solid #f5f5f5;
+  border-radius: 0;
 }
-.price-section .p-c-inner .p-c-header p {
-  font-size: 20px;
-  padding: 22px 0px;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
+.price-section .card .card-header h3 {
+  font-size: 28px;
+  font-family: "Open Sans";
+  color: white;
+  font-weight: 600;
 }
-.price-section .p-c-inner .p-c-banner {
+.price-section .card .card-body {
   background: #333333;
-  padding: 20px 0px 1px;
   border-bottom: 5px solid #ff8b38;
 }
-.price-section .p-c-inner .p-c-banner h2 {
-  font-size: 90px;
-  color: rgb(255, 255, 255);
+.price-section .card .card-body h1 {
+  font-size: 94px;
+  color: white;
   font-weight: bold;
+  font-family: "Raleway", system-ui;
 }
-.price-section .p-c-inner .p-c-banner h2 span {
+.price-section .card .card-body h1 span {
   font-size: 35px;
 }
-.price-section .p-c-inner .p-c-banner p {
-  color: #ffffff80;
+.price-section .card .card-body p {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: rgba(255, 255, 255, 0.502);
   font-style: italic;
 }
-.p-c-body {
-  background: #ffffff;
+
+.price-section .card .card-footer {
+  background: white;
+  padding: 0;
+  border: none;
 }
-.p-c-body ul li {
-  list-style: none;
-  border-bottom: 1px solid #f5f5f5;
-}
-.p-c-body ul li p {
-  margin: 0px;
+.price-section .card li {
+  font-size: 14px;
   padding: 10px 0px;
+  font-family: "Open Sans";
   color: rgb(134, 135, 139);
   text-transform: uppercase;
-  line-height: 1.714;
 }
-.price-section .m-p-c-inner {
-  margin: -43px 0px;
+
+.cus-body {
+  border-bottom: none !important;
 }
-.price-section .m-p-c-inner .m-p-c-header {
-  background: #333333;
-  border-bottom: 1px solid #f5f5f5;
-}
-.price-section .m-p-c-inner .m-p-c-header p {
-  font-size: 20px;
-  padding: 22px 0px;
-  margin: 0px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-.price-section .m-p-c-inner .m-p-c-banner {
-  background: #333333;
-  padding: 20px 0px 1px;
-  border-bottom: 5px solid #ff8b38;
-}
-.price-section .m-p-c-inner .m-p-c-banner h2 {
-  font-size: 90px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-.price-section .m-p-c-inner .m-p-c-banner h2 span {
-  font-size: 35px;
-}
-.price-section .m-p-c-inner .m-p-c-banner p {
-  color: #ffffff80;
-  font-style: italic;
-}
-.price-section .m-p-c-inner .text-line {
+.cus-list {
+  color: white !important;
   background: #ff8b38;
-}
-.price-section .m-p-c-inner .text-line p {
-  color: rgb(255, 255, 255);
-  margin: 0;
-  padding: 10px 0px;
-  font-weight: bold;
-  line-height: 1.714;
   text-transform: uppercase;
+  font-weight: bold;
 }
+
 /* Pricing Section Code End */
 /* Feedback Section Code Start */
 .feedback-section {
@@ -536,7 +510,7 @@ header .navbar .navbar-nav {
 }
 .contact-section form .for-left input {
   font-size: 14px;
-  font-family: "OpenSans";
+  font-family: "Open Sans";
   color: rgb(189, 189, 189);
 }
 .contact-section form .for-right textarea {
@@ -551,7 +525,7 @@ header .navbar .navbar-nav {
   color: white;
   border: 1px solid #ff9b51;
   font-size: 15px;
-  font-family: "OpenSans";
+  font-family: "Open Sans";
   margin-top: 30px;
   padding: 10px 25px;
   transition: 0.5s;
@@ -583,7 +557,7 @@ footer {
 }
 footer p {
   font-size: 12px;
-  font-family: "OpenSans";
+  font-family: "Open Sans";
   color: rgba(255, 255, 255, 0.502);
   text-align: center;
   margin-bottom: 0;

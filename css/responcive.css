@@ -1,0 +1,421 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  /* CSS */
+  /* Banner Section Code Start */
+  .banner-section .cus-hight {
+    height: 93vh;
+  }
+  .banner-section .banner-left {
+    text-align: center;
+  }
+  .banner-section .banner-left h2 {
+    width: 100%;
+  }
+  .banner-section .banner-left .underline {
+    width: 84px;
+    height: 3px;
+    margin: 25px auto;
+  }
+  .banner-section .banner-left p {
+    width: 100%;
+  }
+  .banner-section .banner-right {
+    justify-content: center;
+  }
+  .banner-section .banner-right .card {
+    width: 57%;
+    text-align: center;
+  }
+  .banner-right .card-body {
+    padding: 30px 25px;
+  }
+  /* Banner Section Code End */
+
+  /* Social Section Code Start */
+  .social-section {
+    padding: 20px 10px;
+  }
+  .social-section .social-right {
+    text-align: center;
+  }
+  .social-section .social-right p {
+    width: 100%;
+  }
+  /* Social Section Code End */
+  /* Tab Section Code Start */
+  .tab-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .tab-left .nav .nav-link {
+    width: 95px;
+    height: 95px;
+  }
+  .tab-section .tab-left .nav {
+    margin-right: 40px;
+  }
+  .tab-left .tab-content h4 {
+    padding-bottom: 15px;
+  }
+  .tab-left .tab-content p {
+    width: 100%;
+  }
+  .tab-section .tab-content .btns {
+    margin-top: 15px;
+  }
+  .tab-section .tab-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  /* Tab Section Code End */
+  /* Sub Section Code Start */
+  .sub-section {
+    width: 100%;
+    padding: 50px 50px 15px;
+  }
+  .sub-section .sub-right .sub-list p {
+    width: 100%;
+  }
+  .sub-section .sub-right {
+    margin-left: 0px;
+  }
+  .sub-section .sub-right .t-text p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .sub-section .sub-right .title {
+    display: flex;
+    gap: 20px;
+  }
+  .sub-section .sub-left {
+    display: flex;
+    justify-content: center;
+  }
+  /* Sub Section Code End */
+  /* Standard Section Code Start */
+  .standard-section {
+    padding: 50px 50px;
+  }
+  .standard-section .standard-left p {
+    color: #86878b;
+    width: 100%;
+  }
+  .standard-section .standard-left .cus {
+    width: 100%;
+  }
+  .standard-section .standard-right {
+    display: flex;
+    justify-content: center;
+  }
+  /* Standard Section Code End */
+  /* Awesome Section Code Start */
+  .awesome-section {
+    padding: 50px 15px 10px;
+  }
+  .awesome-section p {
+    color: #a4a5a8;
+    margin-bottom: 45px;
+  }
+  .awesome-section .a-box {
+    margin-bottom: 45px;
+  }
+  .awesome-section .a-box p {
+    width: 69%;
+    margin: 0 auto;
+  }
+  /* Awesome Section Code End */
+  /* Price Section Code Start */
+  .price-section {
+    width: 100%;
+    padding: 50px 15px 35px;
+    background: #f5f5f5;
+  }
+  .price-section .cus-res {
+    display: flex;
+    justify-content: center !important;
+  }
+  .price-section .card {
+    margin-bottom: 30px;
+    width: 65%;
+  }
+  /* Price Section Code End */
+  /* Feedback Section Code Start */
+  .feedback-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .feedback-section .f-inner {
+    margin-bottom: 30px;
+  }
+  .feedback-section .cus-padding {
+    padding: 0px;
+  }
+  .feedback-section .f-text {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    position: relative;
+  }
+  .feedback-section .cus-padding2 {
+    padding: 0px 202px;
+  }
+  .feedback-section .f-top p {
+    margin-bottom: 40px;
+  }
+  /* Feedback Section Code End */
+  /* Contact Section Code Start */
+  .contact-section {
+    width: 100%;
+    padding: 50px 50px;
+  }
+  .contact-section form .form-inner {
+    display: block;
+    gap: 60px;
+  }
+  .contact-section form .for-right textarea {
+    margin: 5px 0 0;
+    padding: 15px 12px 30px;
+  }
+  .contact-section .con-top p {
+    margin-bottom: 45px;
+  }
+  /* Contact Section Code End */
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  /* Global CSS */
+  p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  /* Global CSS */
+
+  /* Banner Section Code Start */
+  .banner-section .cus-hight {
+    height: 90vh;
+  }
+  .banner-section .banner-left {
+    text-align: center;
+  }
+  .banner-section .banner-left h2 {
+    width: 100%;
+    font-size: 24px;
+  }
+  .banner-section .banner-left .underline {
+    width: 84px;
+    height: 3px;
+    margin: 25px auto;
+  }
+  .banner-section .banner-left p {
+    width: 100%;
+  }
+  .banner-section .banner-right {
+    justify-content: center;
+  }
+  .banner-section .banner-right .card {
+    width: 85%;
+  }
+  .banner-right .card-body {
+    padding: 20px 15px;
+  }
+  /* Banner Section Code End */
+
+  /* Social Section Code Start */
+  .social-section {
+    padding: 20px 10px;
+  }
+  .social-section .social-right {
+    text-align: center;
+  }
+  .social-section .social-right p {
+    width: 100%;
+  }
+  .icons1 ul {
+    padding-top: 10px;
+  }
+  .icons1 ul li a i {
+    font-size: 36px;
+  }
+  /* Social Section Code End */
+  /* Tab Section Code Start */
+  .tab-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .tab-left .nav .nav-link {
+    width: 90px;
+    height: 90px;
+  }
+  .tab-section .tab-left .nav {
+    margin-right: 25px;
+  }
+  .tab-left .tab-content h4 {
+    padding-bottom: 15px;
+  }
+  .tab-left .tab-content p {
+    width: 100%;
+  }
+  .tab-section .tab-content .btns {
+    margin-top: 15px;
+  }
+  .tab-section .tab-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  /* Tab Section Code End */
+  /* Sub Section Code Start */
+  .sub-section {
+    width: 100%;
+    padding: 50px 15px 15px;
+  }
+  .sub-section .sub-right .sub-list p {
+    width: 100%;
+  }
+  .sub-section .sub-right {
+    margin-left: 0px;
+  }
+  .sub-section .sub-right .t-text p {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+  .sub-section .sub-right .title {
+    display: flex;
+    gap: 20px;
+  }
+  /* Sub Section Code End */
+  /* Standard Section Code Start */
+  .standard-section {
+    padding: 50px 15px;
+  }
+  .standard-section .standard-left p {
+    color: #86878b;
+    width: 100%;
+  }
+  .standard-section .standard-left .cus {
+    width: 100%;
+  }
+  /* Standard Section Code End */
+  /* Awesome Section Code Start */
+  .awesome-section {
+    padding: 50px 15px 10px;
+  }
+  .awesome-section p {
+    color: #a4a5a8;
+    margin-bottom: 45px;
+  }
+  .awesome-section .a-box {
+    margin-bottom: 45px;
+  }
+  .awesome-section .a-box p {
+    width: 100%;
+    margin: 0 auto;
+  }
+  /* Awesome Section Code End */
+  /* Price Section Code Start */
+  .price-section {
+    width: 100%;
+    padding: 50px 15px 35px;
+    background: #f5f5f5;
+  }
+  .price-section .cus-res {
+    display: flex;
+    justify-content: center !important;
+  }
+  .price-section .card {
+    margin-bottom: 30px;
+  }
+  /* Price Section Code End */
+  /* Feedback Section Code Start */
+  .feedback-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .feedback-section .f-inner {
+    margin-bottom: 30px;
+  }
+  .feedback-section .cus-padding {
+    padding: 0px;
+  }
+  .feedback-section .f-text {
+    background: #f5f5f5;
+    width: 100%;
+    padding: 20px 10px;
+    margin-bottom: 25px;
+    border-radius: 3px;
+    position: relative;
+  }
+  .feedback-section .cus-padding2 {
+    padding: 0px 55px 0px 60px;
+  }
+  /* Feedback Section Code End */
+  /* Contact Section Code Start */
+  .contact-section {
+    width: 100%;
+    padding: 50px 15px;
+  }
+  .contact-section form .form-inner {
+    display: block;
+    gap: 60px;
+  }
+  .contact-section form .for-right textarea {
+    margin: 5px 0 0;
+    padding: 15px 12px 30px;
+  }
+  .contact-section .con-top p {
+    margin-bottom: 45px;
+  }
+  /* Contact Section Code End */
+}
